@@ -30,6 +30,7 @@ button {
   border: none;
   border-radius: 0.1rem;
   cursor: pointer;
+  font-size: 110%;
 }
 
 .offcanvas {
@@ -38,7 +39,6 @@ button {
   height: 100%;
   transform: translateX(-100%);
   transition: transform .2s ease-in-out;
-  z-index: 1;
 }
 
 .show {
