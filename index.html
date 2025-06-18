@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en-US">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Offcanvas</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Accessible offcanvas panel made with pure JavaScript.">
+        <link rel="shortcut icon" href="./src/favicon.svg" type="image/x-icon">
+        <link rel="stylesheet" href="./src/style.css">
+        <title>Accessible Offcanvas Panel</title>
+    </head>
 
-<body class="text-white font-sys-ui">
-  <div data-js="offcanvas" class="offcanvas bg-dark-gray position-absolute text-center">
-    <h1>Offcanvas</h1>
-    <p class="m-inline-1r">Fui criado com JavaScript puro. Clique no botão à direita para me ocultar ou exibir.</p>
-  </div>
-  <button data-js="toggle-offcanvas" class="text-white bg-dark-gray center-element font-sys-ui">Ocultar/Exibir
-    Offcanvas</button>
-  <p class="text-center bg-gray p-t-05r p-b-05r m-t-auto">Desenvolvido por: <a
-      href="https://github.com/irmaodoguilherme?tab=repositories" class="text-cyan text-dec-none">Guilherme Aires</a>
-  </p>
-  <script src="./app.js"></script>
-</body>
+    <body>
+        <main>
+            <h1 class="visually-hidden">Hi, welcome to my Offcanvas</h1>
+            <div aria-label="Side panel." data-js="offcanvas" role="dialog" aria-modal="true" tabindex="-1">
+                <h2 class="visually-hidden">Side navigation panel</h2>
+                <p>This side navigation panel was made with pure Javascript.</p>
+                <button type="button" data-button="toggle-offcanvas-visibility" aria-label="Toggle side panel visibility." aria-expanded="false">
+                    <img src="./src/arrow-right.svg" alt="">
+                </button>
+            </div>
+        </main>
+        <script src="app.js"></script>
+    </body>
 
 </html>

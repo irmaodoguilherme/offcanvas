@@ -1,23 +1,63 @@
-## Sumário
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](/license.txt)
 
-- [Introdução](#introdução)
-- [Como acessar](#como-acessar)
-- [Como usá-la](#como-usá-la)
-- [Suporte](#suporte)
+## Table of contents
+- [How to use](#how-to-use)
+- [Demo](#demo)
+- [Technologies](#technologies)
+- [Functionality](#functionality)
+- [Support](#support)
+- [License](#license)
 
-**<h1 id="introdução">Offcanvas</h1>**
+# Accessible Offcanvas Panel [🔝](#table-of-contents)
 
-Um offcanvas, criado com JavaScript puro.
+A simple and accessible side navigation panel built with HTML, CSS, and JavaScript.  
+Useful for adding hidden menus or extra content without disturbing the main page layout.
 
-<h2 id="como-acessar">Como acessar</h2>
+## Functionality
 
-Você pode acessá-lo [aqui](https://offcanvas-gal.netlify.app/) ou através do link na seção 'About'.
+- Toggle a side panel using a single accessible button
+- Close the panel by pressing the `Escape` key
+- Close the panel by clicking outside of it
+- Uses semantic HTML and ARIA attributes for accessibility
+- Includes smooth transitions and keyboard navigation support
 
+## Demo
+[![loading...](./src/preview.gif)]()
 
-<h2 id="como-usá-la">Como usá-lo</h2>
+## How to use
 
-Clique no botão 'Ocultar/Exibir Offcanvas' para exibir ou ocultar o offcanvas.
+Clicking the arrow on the left side of the screen will show the side navigation panel. Clicking it again will close it.
+You can also close it by pressing the 'Escape' key or clicking outside it.
 
-<h2 id="suporte">Suporte</h2>
+## How to locally run the project
 
-Se você encontrar algum erro durante o uso da aplicação, por favor, abra uma 'Issue'. **Descreva o problema de forma clara e detalhada**, incluindo informações sobre o que aconteceu, quando ocorreu e o que você estava fazendo na ocasião.
+1. Clone the repository.
+```bash
+git clone https://github.com/irmaodoguilherme/offcanvas.git
+```
+
+2. Navigate to the project's folder.
+```bash
+cd offcanvas
+```
+
+3. Run it locally using LiveServer in VSCode.
+
+> Alternative: Double click the `index.html` file.
+
+## Technologies
+
+- JavaScript
+- HTML
+- CSS
+
+## Support [🔝](#table-of-contents)
+You can contact me through [contatoguilherme83@gmail.com](mailto:contatoguilherme83@gmail.com).
+
+I accept any recommendations regarding the application. I'd be happy to add a little piece of every new idea so another person could study it.
+
+Any found bugs can and should be reported through the `issues` section.
+
+## License [🔝](#table-of-contents)
+
+This project is licensed under the [MIT License](/license.txt)
